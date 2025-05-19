@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8" />
+	<title>Login Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="Cform.css">
+    <link rel="stylesheet" href="Login.css">
+      
+    <style>
+ 
+    </style>
+  </head>
+
+  <body >
+	    <header>
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark mynav">
+					  <a class="navbar-brand" href="#">
+						<img src="logo1.png" alt="logo" style="width:40px;">
+					  </a>
+					  <a class="navbar-brand text-primary " href="/" text->EasyLance</a>
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					  </button>
+			
+					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+				      <div class="homelanding">    
+                            <li class="nav-item">
+                                <a href="http://127.0.0.1:8081/LandingPage" class="btn text-light" role="button">Home</a>
+                            </li>
+                      </div>
+						
+				      </div>
+			     </nav>
+       </header>
+  <section>
+    <div class="loginbox text-black font-italic">
+      
+<!--
+          <form action="http://127.0.0.1:8081/O'auth" method="POST" autocomplete='off'>
+            <input type="text" name="username" placeholder="Username" required />
+            <input type="password" name="password" placeholder="Password" required />
+            <input type="submit" />
+            <p <%=state%> class="invalid">Wrong Credentials</a>
+
+          </form>
+-->
+                <form action="http://127.0.0.1:8081/O'auth" method="POST" autocomplete='off'>
+                    <h1>Login Form</h1>
+                    
+                    <p>Username</p>
+                    <input type="text" name="username" placeholder="Enter Username" required />
+                    
+                    <p>Password</p>
+                    <input type="password" name="password" placeholder="Enter Password" required />
+                    <input type="submit" />
+                    <p <%=state%> class="invalid text-warning font-italic font-weight-bold">Wrong Credentials </p>
+        
+                </form>
+    </div>
+</section>      
+      
+      
+    <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
