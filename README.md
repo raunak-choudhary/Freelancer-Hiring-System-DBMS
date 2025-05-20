@@ -46,3 +46,5 @@ The schema supports normalization (up to 3NF) for efficient query performance an
 - **Raunak Choudhary**  
   Email: [raunakchoudhary17@gmail.com](mailto:raunakchoudhary17@gmail.com)  
   LinkedIn: [linkedin.com/in/raunak-choudhary](https://www.linkedin.com/in/raunak-choudhary)
+
+-----
